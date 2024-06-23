@@ -39,8 +39,8 @@ const Skills = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.3 }} className='flex-1 p-6'>
-            <h2 className='h2 text-accent  text-left-center font-bold ml-8 mb-8 '>Skills</h2>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+            <h2 className='h2 text-accent text-left-center font-bold md:ml-8'>Skills</h2>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-8 md:ml-8'>
                 <div>
                     <h3 className='h3 text-accent font-bold mb-4 ml-8'>Frontend</h3>
                     <ul className='list-disc list-inside ml-8 text-blue-50'>
@@ -64,7 +64,7 @@ const Skills = () => {
                             <li key={index}>{skill}</li>
                         ))}
                     </ul>
-                    <br></br>
+                    <br />
                     <h3 className='h3 text-accent font-bold mb-4'>Frameworks and library</h3>
                     <ul className='list-disc list-inside text-blue-50'>
                         {skills["Frameworks and library"].map((skill, index) => (
@@ -72,7 +72,6 @@ const Skills = () => {
                         ))}
                     </ul>
                 </div>
-
             </div>
         </motion.div>
     );
