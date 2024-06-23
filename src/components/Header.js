@@ -1,14 +1,17 @@
 import React from 'react';
 import Logo from '../assets/logo4.svg';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Header = () => {
   return (
     <header className='py-8'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-          <span className='text-accent font-tertiary'>Sonali Banajre</span>
+          <span className='text-accent font-tertiary'>Sonali Banjare</span>
           {/* button */}
-          <button className='btn btn-sm'>Work with me</button>
+          <ScrollLink to="contact" smooth={true} duration={500} className='text-gradient btn-link mb-4'>
+            <button className='btn btn-sm'>Work with me</button>
+          </ScrollLink>
         </div>
       </div>
     </header>
@@ -16,11 +19,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
-{/* service id : service_fwx8ihh
-    template id: template_myvduzk
-    public key : zmBnSOgVYilC3Kb-E
-
-*/ }
