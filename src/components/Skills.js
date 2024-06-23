@@ -1,6 +1,6 @@
 import React from 'react';
 //icons
-import { BsArrowUpRight } from 'react-icons/bs';
+
 //motion
 import { motion } from 'framer-motion';
 //variants

@@ -66,14 +66,12 @@ const Contact = () => {
                 Let's work <br /> together!
               </h2>
 
-
               <span className='flex items-center mr-4'>
                 <FaPhoneAlt className='text-accent mr-2' /> +91 9685521031
               </span>
               <span className='flex items-center email'>
                 <SiGmail className=' text-accent mr-2' /> sonalibanjare25@gmail.com
               </span>
-              <p className='flex items-center mr-4 text-white'> Feel free to reach out to me via the following platforms or by filling out the contact form below.</p>
 
             </div>
           </motion.div>
