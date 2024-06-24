@@ -45,7 +45,7 @@ const About = () => {
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of<br />
@@ -54,7 +54,7 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={40} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={20} duration={3} /> : null}+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects<br />
@@ -63,7 +63,7 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={20} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Satisfied<br />
