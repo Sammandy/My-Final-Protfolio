@@ -53,7 +53,7 @@ const Services = () => {
           >
             <h2 className='h2 text-accent mb-6'>My Projects</h2>
             <h3 className='h3 max-w-[455px] mb-16'>
-              I'm a Freelancer Developer with over 2+ years of experience.
+              I'm a Freelancer Developer with over 1+ years of experience.
             </h3>
             <button className='btn btn-sm'>See my work</button>
           </motion.div>
