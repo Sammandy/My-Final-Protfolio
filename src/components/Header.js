@@ -10,7 +10,7 @@ const Header = () => {
           <span className='text-accent font-tertiary'>Sonali Banjare</span>
           {/* button */}
           <ScrollLink to="contact" smooth={true} duration={500} className='text-gradient btn-link mb-4'>
-            <button className='btn btn-sm'>Work with me</button>
+            <button className='btn btn-sm'>Hire me</button>
           </ScrollLink>
         </div>
       </div>
